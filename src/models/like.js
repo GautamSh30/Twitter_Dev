@@ -6,7 +6,6 @@ const likeSchema = new mongoose.Schema(
       type: String,
       required: true,
       enum: ["Tweet", "Comment"],
-      n,
     },
     likeable: {
       type: mongoose.Schema.Types.ObjectId,
